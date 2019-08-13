@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="cm_2019年8月1日"><meta name="keywords" content="每日总结,主席树,cm,数据结构"><meta name="author" content="DcmTruman"><meta name="copyright" content="DcmTruman"><title>cm_2019年8月1日 | CUC_xywKeycm</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><meta name="google-site-verification" content="s4muLfZi8R9IV04LGH-3mkK8QvsUmIcmcQ4OBZkbrwE"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  }
+} </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#上午"><span class="toc-number">1.</span> <span class="toc-text">上午</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#下午"><span class="toc-number">2.</span> <span class="toc-text">下午</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Bzoj-2653"><span class="toc-number">2.1.</span> <span class="toc-text">Bzoj-2653</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Bzoj-3932"><span class="toc-number">2.2.</span> <span class="toc-text">Bzoj-3932</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Bzoj-3123"><span class="toc-number">2.3.</span> <span class="toc-text">Bzoj-3123</span></a></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">DcmTruman</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">33</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">28</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">17</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(/img/fr.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">CUC_xywKeycm</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/slides">Slide</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title">cm_2019年8月1日</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-08-01</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/cm/">cm</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/cm/日报/">日报</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="上午"><a href="#上午" class="headerlink" title="上午"></a>上午</h1><p>挑了几道题，同时补了一下之前在codeforces上遇到的一个题，标答给的做法是名次树，treap，实现使用stl，也因此，<code>treap</code>成了我这几天特别想学习的东西（之一），这个周末如果不忙，会去看看。</p>
+<p>当然也有一种离线做法，需要提前处理出来询问，按照从小到大的顺序在权值线段树上询问和更新，也比较好理解，但是，今天还看到一个很棒的做法，代码量非常少，改天有空会专门写一下题解。</p>
+<h1 id="下午"><a href="#下午" class="headerlink" title="下午"></a>下午</h1><p>吃完午饭后，和师弟开始研究习题，今天下午的学习方法是这样的，重点培养对于数据结构这一类题的思维能力，暂时先不开始敲（俗称，嘴巴ac）毕竟放在下午的话，可能思维上会了，但是调试一下午就很没有效率，我晚上或者其他空闲时间，在主要开始切一些这样的题。</p>
+<p>看了很多bzoj的题，收获还是很多的，想大概说一下</p>
+<a id="more"></a>
+<h2 id="Bzoj-2653"><a href="#Bzoj-2653" class="headerlink" title="Bzoj-2653"></a>Bzoj-2653</h2><p>这道题很有意思，也加深了我对「可持久化线段树」的理解。</p>
+<p>题目大意是，左端点给你一个可选范围，右端点给你一个可选范围，然后你决定左右端点，使得其形成的区间的中位数最大。</p>
+<p>我想到二分中位数了，想着根据当前中位数，判断一下 左右区间+中间区间 能不能构成我这种中位数情况，说白了就是看一下比当前值<code>x</code>大的有多少个数，比<code>x</code>小的有多少个数，但由于是连续选取，所以突然有点懵不知道该怎么维护。</p>
+<p>后来师弟说<strong>线段树最大连续子段和</strong>之后，再利用+1、-1这种数值记录的方式。仿佛有了点眉目。</p>
+<p>题解做法是，初始一颗线段树，每个叶子结点是当前位置对应的信息，初始是全为+1，然后对于原序列，按照数值从小到大的顺序，更新这个线段树，每次更新，都去更新其在原数组中的位置，将其置位-1。</p>
+<p>这样一来，对于任何一个在数组中的值，我都有一个包含区间信息的+1，-1线段树，更新使用可持久化思想，每次只更新部分信息，根据二分的值我们在此二分能找到一个与之对应的中位数，得到这个中位数下的求最大子段信息。</p>
+<p>具体代码和做法，之后会补上。</p>
+<p>很多人的解题博客上写着「主席树」，我觉得并不妥当，在这里向和传统主席树的应用做个比较。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>区间第k大</th>
+<th>此题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>维护信息</td>
+<td>值域上每个数的分布</td>
+<td>每个版本原数组区间的信息</td>
+</tr>
+<tr>
+<td>根节点信息</td>
+<td>将区间序列表示成一种有序的时间更新序列</td>
+<td>按照数值排序，不断修改线段树，更新部分信息</td>
+</tr>
+<tr>
+<td>利用</td>
+<td>利用可减性，将「历史版本」变成「区间信息」</td>
+<td>比较纯粹的「可持久化」思想，为了使用许多个不同版本的线段树</td>
+</tr>
+</tbody></table>
+<h2 id="Bzoj-3932"><a href="#Bzoj-3932" class="headerlink" title="Bzoj-3932"></a>Bzoj-3932</h2><p>求区间前k小的和，这一部分不多说了，之所以也写在日报里是一个地方出了笔误，<strong>本来应该求左儿子的节点个数信息，我写成当前儿子了，实在是坑死我了</strong></p>
+<p>其实主席树的一个特点，也可以让我们更好的去思考这类题，每次更新都是一个点，我们见到这样的题，完全可以先考虑，在这道题中，有没有什么操作是单点或者能转换成单点操作的。比如本题中，虽然线段是覆盖，但可以看成是左端点+一个值，右端点-一个值，就能按照题目中与时间有个的关键点维护权值线段树，得到不同时间点的前k大的和。</p>
+<p>对于输入中任何一个时间点，二分找到小于等于它的最大的那个时间点，根据其对应的权值线段树，得到答案。</p>
+<h2 id="Bzoj-3123"><a href="#Bzoj-3123" class="headerlink" title="Bzoj-3123"></a>Bzoj-3123</h2><p>启发式合并，一开始看到之后想过能不能暴力这么搞，但因为自己太菜+经验不足，就自我否定了这个想法，后来看到这个题的tag，才恍然大悟。</p>
+<p>时候诸葛亮一下，又是始终保证森林，又是树上一个点接到另一个上面，明示合并能搞啊，这部分的复杂度$log_{2}n$，不该怂的，真的很巧妙啊。</p>
+<hr>
+<p>等下准备去更新一下 <strong>acm错误统计</strong>，然后睡觉！ </p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">DcmTruman</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://dcmtruman.github.io/2019/07/31/cm_day_20190801_2/">https://dcmtruman.github.io/2019/07/31/cm_day_20190801_2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://dcmtruman.github.io">CUC_xywKeycm</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/每日总结/">每日总结</a><a class="post-meta__tags" href="/tags/主席树/">主席树</a><a class="post-meta__tags" href="/tags/cm/">cm</a><a class="post-meta__tags" href="/tags/数据结构/">数据结构</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2019/07/31/blog_instructions_20190801/"><i class="fa fa-chevron-left">  </i><span>博客使用说明</span></a></div><div class="next-post pull-right"><a href="/2019/07/31/xyw_day_20190801/"><span>xyw_2019年8月1日</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="lv-container" data-id="city" data-uid="MTAyMC80NTcwOC8yMjIxOQ=="><script>(function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+})(document, 'script');</script></div></div></div><footer class="footer-bg" style="background-image: url(/img/fr.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2019 By DcmTruman</div><div class="framework-info"><span>驱动 - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "HTML-CSS": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "SVG": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  }
+});
+</script><script type="text/x-mathjax-config">MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for (i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="/js/search/local-search.js"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>

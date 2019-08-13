@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="xyw_xyw_2019年8月7日"><meta name="keywords" content="每日总结,xyw"><meta name="author" content="DcmTruman"><meta name="copyright" content="DcmTruman"><title>xyw_xyw_2019年8月7日 | CUC_xywKeycm</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><meta name="google-site-verification" content="s4muLfZi8R9IV04LGH-3mkK8QvsUmIcmcQ4OBZkbrwE"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  }
+} </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#xyw5vplus1-2019-08-07"><span class="toc-number">1.</span> <span class="toc-text">xyw5vplus1_2019.08.07</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">DcmTruman</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">33</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">28</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">17</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(/img/fr.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">CUC_xywKeycm</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/slides">Slide</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title">xyw_xyw_2019年8月7日</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-08-07</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/xyw/">xyw</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/xyw/日报/">日报</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="xyw5vplus1-2019-08-07"><a href="#xyw5vplus1-2019-08-07" class="headerlink" title="xyw5vplus1_2019.08.07"></a>xyw5vplus1_2019.08.07</h1><p><em>一个人的七夕节……</em></p>
+<p><em>手动@在家帮妈妈干活的另一位 @key</em></p>
+<p>今天的上午又是一个迟到的上午，睡过头的我开始了在寝室的学习计划，</p>
+<p>233矩阵题，“花式”构造矩阵，（其实也没有花式啦，就是正常地推就可以了，只是真的觉得矩阵有意思~</p>
+<p>HDU 5646 把n拆成k个不同的正整数和，要求这k个正整数的积最大，</p>
+<p>n,k&lt;=1e9</p>
+<p>继续是纸老虎的数据范围，k实际有用的只有不到1e5，因为1+2+3+……+k&gt;n的情况就会无解</p>
+<p>接下来一个事实是要使正数之间的乘积变得更大，增大最小的那个数是最优策略，（不等式计算一下即可得</p>
+<p>那么就出现了我们需要把最小的数字最大化，二分！</p>
+<p>写一个判断剩下部分能不能表示出来的bool函数这题就做完了。</p>
+<p>上午借助洛谷成功地把森林补完了，总共犯了三个错误：</p>
+<p>​    1.最蠢的，query的时候往右子树跑的时候k忘减cnt了，居然过了样例……</p>
+<p>​    2.合并的时候忘记增加边了</p>
+<p>​    3.也是最玄学的感觉，目前还没有理解，<strong><em>因为树的形态在改变，dfs的时候维护father数组的时候的上界不能使lg[dep[cur]]，而应该是最大的19，洛谷上有图文解释，还不明白为什么</em></strong></p>
+<p>花神的嘲讽计划，迷之被卡Hash，居然看了别人的Discuss换成自然溢出就过了（黑人问号.jpg？</p>
+<p>（一度又自己给自己出题，好在这题k是定值降低了难度，于是就引申出了另一道题 小清新人渣的本愿</p>
+<p>直接不要害怕上bitset+Map就完事了，貌似加个快读是可以过的？莫队复杂度毕竟玄学……（其实我还并没有写过这题，怎么说的跟我真的过了一样的</p>
+<p>洛谷上看了几个题，有些也不是主席树的，稍微回顾了一下莫队</p>
+<p>然后就跟楚盟师哥一起开始看多校级别的主席树了</p>
+<p>首先是今年第4场多校的主席树，能比较快地想出来还是蛮开心的，耶！ヽ(￣▽￣)ﾉ</p>
+<p>关键在于想到二分，然后就转化成统计区间内的数落在某个值域范围内的数的个数</p>
+<p>另外一道是16年的一道，一开始诈和了一个做法，（还在还是为之后的做法提供了一些方向的，意识到问题之后慢慢地还是调整过来了，最后也成功地想出来正解，总的思考时间大约在半个小时左右</p>
+<p>嗯总体来说能想出这两道多校级别的主席树又给我和楚盟师哥增长了不少信心ヽ(￣▽￣)ﾉ</p>
+<p>明天继续会朝着多校级别的主席树题的难度去进军的</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">DcmTruman</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://dcmtruman.github.io/2019/08/06/xyw_day_20190807/">https://dcmtruman.github.io/2019/08/06/xyw_day_20190807/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://dcmtruman.github.io">CUC_xywKeycm</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/每日总结/">每日总结</a><a class="post-meta__tags" href="/tags/xyw/">xyw</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2019/08/06/cm_learn_trie_iijq/"><i class="fa fa-chevron-left">  </i><span>cm_可持久化trie树学习笔记 + BZOJ 3261/P4592 [TJOI2018]题解</span></a></div><div class="next-post pull-right"><a href="/2019/08/05/cm_day_20190806/"><span>cm_2019年8月6日</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="lv-container" data-id="city" data-uid="MTAyMC80NTcwOC8yMjIxOQ=="><script>(function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+})(document, 'script');</script></div></div></div><footer class="footer-bg" style="background-image: url(/img/fr.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2019 By DcmTruman</div><div class="framework-info"><span>驱动 - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "HTML-CSS": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "SVG": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  }
+});
+</script><script type="text/x-mathjax-config">MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for (i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="/js/search/local-search.js"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
